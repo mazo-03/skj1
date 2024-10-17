@@ -11,7 +11,6 @@ public class TCPClient {
             this.socket = new Socket(host, port);
         } catch (IOException e) {
             System.out.printf("Error during the connection - %s\n", e.getMessage());
-            return;
         }
     }
 
