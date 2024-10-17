@@ -9,7 +9,7 @@ public class Main {
         client.close();
 
         //1
-        TCPClient client2 = new TCPClient("10.22.26.17", 9005);
+        TCP2 client2 = new TCP2("10.22.26.17", 9005);
         System.out.println(client2.getMessage());
 
         //2
